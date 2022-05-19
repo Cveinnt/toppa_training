@@ -1,0 +1,229 @@
+body {
+ background-image: url("bg.jpg");
+ background-size: cover;
+ color: white;
+}
+
+#table{
+	float: left;
+}
+
+h1{
+	font-size: 45;
+	text-align: center;
+}
+
+h2{
+	font-size: 30;
+	text-align: center;
+	color: red;
+}
+
+h3{
+	color: gold;
+}
+
+a{
+	color: lightblue;
+}
+
+#bio{
+	text-align: center;
+}
+
+#leftside{
+	float: left;
+}
+
+#middle{
+	float: center;
+}
+
+#rightside{
+	float: right;
+}
+
+#clear{
+	clear: both;
+}
+
+.randomimg {
+    position: relative;
+    float: left;
+    width:  500px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+
+::selection{
+	background: pink;
+}
+
+#expander {
+	display: none;
+}
+
+.spoiler1 .expander:before {
+  content: '[show]'
+}
+
+.spoiler1 #expand1 {
+  display: none;
+}
+
+.spoiler1 #expand1:checked + .expander:before {
+  content: '[hide]';
+}
+
+.spoiler1 #expand1:checked ~ .spoiler-content {
+	display: block;
+}
+
+.spoiler1 .spoiler-content {
+	display: none;
+}
+
+#expander {
+	display: none;
+}
+
+.spoiler2 .expander:before {
+  content: '[show]'
+}
+
+.spoiler2 #expand2 {
+  display: none;
+}
+
+.spoiler2 #expand2:checked + .expander:before {
+  content: '[hide]';
+}
+
+.spoiler2 #expand2:checked ~ .spoiler-content {
+	display: block;
+}
+
+.spoiler2 .spoiler-content {
+	display: none;
+}
+
+#expander {
+	display: none;
+}
+
+.spoiler3 .expander:before {
+  content: '[show]'
+}
+
+.spoiler3 #expand3 {
+  display: none;
+}
+
+.spoiler3 #expand3:checked + .expander:before {
+  content: '[hide]';
+}
+
+.spoiler3 #expand3:checked ~ .spoiler-content {
+	display: block;
+}
+
+.spoiler3 .spoiler-content {
+	display: none;
+}
+
+#expander {
+	display: none;
+}
+
+.spoiler4 .expander:before {
+  content: '[show]'
+}
+
+.spoiler4 #expand4 {
+  display: none;
+}
+
+.spoiler4 #expand4:checked + .expander:before {
+  content: '[hide]';
+}
+
+.spoiler4 #expand4:checked ~ .spoiler-content {
+	display: block;
+}
+
+.spoiler4 .spoiler-content {
+	display: none;
+}
+
+#expander {
+	display: none;
+}
+
+.spoiler5 .expander:before {
+  content: '[show]'
+}
+
+.spoiler5 #expand5 {
+  display: none;
+}
+
+.spoiler5 #expand5:checked + .expander:before {
+  content: '[hide]';
+}
+
+.spoiler5 #expand5:checked ~ .spoiler-content {
+	display: block;
+}
+
+.spoiler5 .spoiler-content {
+	display: none;
+}
+
+#expander {
+	display: none;
+}
+
+.spoiler6 .expander:before {
+  content: '[show]'
+}
+
+.spoiler6 #expand6 {
+  display: none;
+}
+
+.spoiler6 #expand6:checked + .expander:before {
+  content: '[hide]';
+}
+
+.spoiler6 #expand6:checked ~ .spoiler-content {
+	display: block;
+}
+
+.spoiler6 .spoiler-content {
+	display: none;
+}
+
+#expander {
+	display: none;
+}
+
+.spoiler7 .expander:before {
+  content: '[show]'
+}
+
+.spoiler7 #expand7 {
+  display: none;
+}
+
+.spoiler7 #expand7:checked + .expander:before {
+  content: '[hide]';
+}
+
+.spoiler7 #expand7:checked ~ .spoiler-content {
+	display: block;
+}
+
+.spoiler7 .spoiler-content {
+	display: none;
+}

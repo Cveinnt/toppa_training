@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Joshua Wu</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<script>
+	function play(song){
+	    var audio = document.getElementById(song);
+	    audio.play();
+	}
+	var imageURLs = [
+		"rapgods.png"
+		, "gobears.png"
+		, "gyro.jpg"
+		, "hououinkyouma.jpg"
+		, "naga.jpg"
+		, "13.jpg"
+		, "victini.jpg"
+		, "kakyoin.jpg"
+		, "komi.png"
+		, "megagross.gif"
+		, "killerqueen.gif"
+		, "profile.gif"
+	];
+	var imageURLs2 = [
+		"sicp0.jpeg"
+		, "sicp1.jpg"
+		, "sicp2.jpg"
+		, "sicp3.png"
+		, "sicp4.jpg"
+		, "sicp5.jpeg"
+		, "sicp6.jpeg"
+		, "sicp7.jpg"
+		, "sicp8.jpg"
+		, "sicp9.png"
+		, "sicp10.png"
+		, "denero.png"
+	];
+	function getImageTag() {
+		var img = '<img class="randomimg" src=\"';
+		var randomIndex = Math.floor(Math.random() * imageURLs.length);
+		img += imageURLs[randomIndex];
+		img += '\" alt=\"Image failed to load.\"/>';
+		return img;
+	}
+	function openRandomImage() {
+		img = imageURLs2[Math.floor(Math.random() * imageURLs2.length)];
+		window.open(img, target="_blank");
+	}
+</script>
+<audio id="pkmngo" src="y2mate.com - pokemon_go_song_by_misha_for_kids_vfc42Pb5RA8.mp3"></audio>
+<audio id="gnome" src="y2mate.com - youve_been_gnomedwmv_6n3pFFPSlW4.mp3"></audio>
+<img id="table" height = 50 width = 50 src = 'table.png' />
+<h1>Joshua Wu&nbsp;&nbsp;&nbsp;&nbsp;</h1>
+	<h2>About Me</h2>
+		<p id="bio">Joshua Wu is a Freshman studying computer science at UC Berkeley. He considers himself a proficient programmer, avid hobbyist, and <strike>dank memer</strike> good friend.</p>
+		<div id='leftside'>
+			<h3>UC Berkeley</h3>
+				<ul>
+					<li onclick="openRandomImage()">The Structure and Interpretation of Computer Programs</li>
+					<ul>
+						<li onclick="openRandomImage()"><i><font size = 1>Fun fact: I have not missed a point in this class.</font></i></li>
+					</ul>
+					<li>Designing Information Devices and Systems</li>
+				</ul>
+			<h3>Not Very Fun Fun Facts</h3>
+				<ul>
+					<li>I play Pokemon competitively.</li>
+					<li>I specialize in the draft league format.</li>
+					<li>I collect Pokemon cards.</li>
+					<li>I used to draw Pokemon fusions.</li>
+					<li>I play Pokemon Go <p style="display:inline" onclick="play('pkmngo')"><font size="+2">(everyday)</font>.</p></li>
+					<li>I am a filthy weeb.</li>
+					<li>I do not own any weeb merch.</li>
+					<li>I'm an <a href = 'http://eecseecs.com/' target = '_blank'>EECS Master-Ace.</a></li>
+					<li>I am annoyingly good at standardized tests.</li>
+					<li>I like nail clippers.</li>
+				</ul>
+			<h3>Favorite Anime</h3>
+				<ol>
+					<li>Steins;Gate</li>
+					<li>Death Note</li>
+					<li>Hunter x Hunter</li>
+					<li>Jojo's Bizarre Adventure</li>
+					<li>Kaiji</li>
+				</ol>
+		</div>
+		<div id='middle'>
+		<script>
+		  document.write(getImageTag());
+		</script>
+		</div>
+		<div id='rightside'>
+			<h3>Clubs</h3>
+				<ul>
+					<li>Toppa @ Berkeley</li>
+					<li>Cal Pokemon</li>
+					<li>Game Design and Development at Berkeley</li>
+				</ul>
+			<h3>Hobbies</h3>
+				<ul>
+					<li>Competitive Pokemon</li>
+					<li>Casual Pokemon</li>
+					<li>Coding projects</li>
+					<li>Weeb stuff</li>
+				</ul>
+			<h3>Resume</h3>
+				<a href = 'resume_wu_joshua.pdf' target = '_blank'>Click here to read my resume.</a>
+				<br></br>
+				<par>Please contact AM22#0819 on Discord for all business inquiries.</par>
+			<h3>Favorite Manga</h3>
+				<ol>
+					<li>Kaguya-Sama: Love is War</li>
+					<li>Jojo part 7: Steel Ball Run</li>
+					<li>Komi-san</li>
+					<li>One Punch Man</li>
+					<li>Hunter x Hunter</li>
+				</ol>
+		</div>
+		<div id='clear'></div>
+	<h2>Tutorials</h2>
+		<h3>Pokemon Card Magic Tricks</h3>
+		<div class="spoiler4">
+			<input type="checkbox" id="expand4" name="expand4" />
+			<label class="expander" for="expand4"></label>
+			<div class="spoiler-content"><iframe width="560" height="315" src="https://www.youtube.com/embed/-mjaaiBWCz0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+		</div>
+		<h3>An Introduction to the Draft League Format</h3>
+		<div class="spoiler7">
+			<input type="checkbox" id="expand7" name="expand7" />
+			<label class="expander" for="expand7"></label>
+		<div class="spoiler-content"><pre width = 300px>Essentially, it’s set up like fantasy football if you’ve ever played that. 
+You each take turns picking Pokemon for your team until everyone has 8-13 depending on the league. Let's say you have 12.
+
+Each week you battle one of the other teams using only Pokemon from your 12 that you “drafted” (picked). 
+The other team can also only use mons from their 12 - which means you and your opponent both know what Pokemon you can bring and you have to counter team them.
+
+Once a Pokemon is drafted, no other team can pick that Pokemon. 
+
+Pokemon are usually divided into tiers based on how strong they usually are in this format. 
+You have a limited amount of points and have to spend them wisely and pick the Pokemon you want before someone else can.
+
+The whole thing is divided into seasons with each season lasting a few weeks + playoffs. 
+The teams with the best records in their divisions fight in playoffs for the championship.
+
+It's a completely different metagame than standard, and it gives opportunity to some very niche Pokemon to shine. 
+Draft league is my favorite format and I highly advise all Pokemon fans to try it.
+		</pre></div>
+		<h3>How to Succeed in CS61A</h3>
+		<div class="spoiler2">
+			<input type="checkbox" id="expand2" name="expand2" onclick="play('gnome')" />
+			<label class="expander" for="expand2"></label>
+			<div class="spoiler-content"><img height = 440 width = 500 src="gnome.gif" /></div>
+		</div>
+	<h2>News</h2>
+		<h3>New Gigantamax Forms Announced</h3>
+		<div class="spoiler5">
+			<input type="checkbox" id="expand5" name="expand5" />
+			<label class="expander" for="expand5"></label>
+			<div class="spoiler-content"><iframe width="560" height="315" src="https://www.youtube.com/embed/Yei3hASt77Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe hey vincent youre not actually reading this right></div>
+		</div>
+		<h3>New Move Revealed for Obstagoon</h3>
+		<div class="spoiler1">
+			<input type="checkbox" id="expand1" name="expand1" />
+			<label class="expander" for="expand1"></label>
+			<div class="spoiler-content"><img height = 440 width = 500 src="https://cdn.discordapp.com/attachments/408049685714960396/631228709604687872/SPOILER_recfaedf81f31.png" /></div oh god oh fuck hes actually reading it please dont kill me im just messing around i swear>
+		</div>
+		<h3>Google Quantum Computing</h3>
+		<div class="spoiler3">
+			<input type="checkbox" id="expand3" name="expand3" />
+			<label class="expander" for="expand3"></label>
+			<div class="spoiler-content"><a href = 'https://www.forbes.com/sites/startswithabang/2019/09/27/has-google-actually-achieved-quantum-supremacy-with-its-new-quantum-computer/#2b74e8e04d45' target = '_blank'>Click here to read</a></div>
+		</div>
+		<h3>President Trump's Impeachment</h3>
+		<div class="spoiler6">
+			<input type="checkbox" id="expand6" name="expand6" />
+			<label class="expander" for="expand6"></label>
+			<div class="spoiler-content"><a href = 'https://www.cnn.com/2019/10/20/politics/lindsey-graham-mitt-romney-impeachment-trump/index.html' target = '_blank'>Click here to read</a></div>
+		</div>
+</body>
+</html>

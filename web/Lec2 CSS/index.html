@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<script src="js/scramble.js"></script>
+
+<html>
+
+<head>
+  <title>Fake News Hub</title>
+  <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="header">
+    <img src="images/image.jpeg" width=200 height=200/>
+    <h1>Fake News Hub</h1>
+    <p class="about-me">Hi! My name is
+      <strong>Peter C. Cook.</strong><br>
+       I am a fake person specializing in HTML, CSS, and writing fake news. <br>
+       I like to run, bike, and fake stuff.</p>
+  </div>
+
+  <!-- Super cool scrambler class -->
+  <div class="about-text">
+    <b style="font-size: 120%">email: </b>
+    <font id="email" style="display:inline;font-size: 115%">
+      <a href="#" onclick="emailScramble.initAnimatedBubbleSort();return false;">unscramble</a>
+    </font>
+    <script>emailScramble = new scrambledString(document.getElementById('email'), 'emailScramble', 'et.nnveleeb@rkiydecu', [3,7,17,5,6,2,10,14,13,15,9,8,11,12,4,16,19,18,1,20]);
+    </script>
+
+  </div>
+<!--   -------------------------------- -->
+
+
+  <h2>Projects</h2>
+  <p class="title">Today's Fake News</p>
+  <ul>
+    <li>
+      <a href="news1.html">
+      Fake News 1: Undoing the great mistake of 2016
+      </a>
+    </li>
+    <li>
+      <a href="news2.html">
+      Fake News 2: Is Trump a Pathological Narcissist?
+      </a>
+    </li>
+  </ul>
+
+  <h2>Contact</h2>
+  <p>Find me on Twitter, and <a href="github.com/cveinnt">GitHub.</a></p>
+
+  <h6>&copy; Copyright Vincent Wu 2019. All Rights Reserved.</h6>
+</body>
+
+</html>
