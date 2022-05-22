@@ -1,8 +1,8 @@
 # Description
 
-Archived as of 2022
+## Archived as of 2022
 
-This repository contains the training materials for Toppa @ Berkeley's data analytics team and web development team.
+This repository contains the training materials for [Toppa @ Berkeley](https://toppa.berkeley.edu/)'s data analytics team and web development team.
 
 Specific READMEs can be found in the designated folders.
 
